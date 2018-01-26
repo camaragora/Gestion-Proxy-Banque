@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+ 
+			  <!--
+			=========================================================
+			====== -->
+			<!-- Informations du projet -->
+			<!--
+			=========================================================
+			====== -->
+			
+			
+			
+			<!-- ===== Informations Maven ===== -->
+
+			  <groupId>sn.objis.codeurs</groupId>
+			  <artifactId>Proxybanque</artifactId>
+			  <version>1.0-SNAPSHOT</version>
+			  <packaging>pom</packaging>
+
+	
+			<!-- ===== Informations générales ===== -->
+	
+			  <name>Proxybanque</name>
+			  <url>http://maven.apache.org</url>
+
+			<!--
+		=========================================================
+		====== -->
+		<!-- Properties -->
+		<!--
+		=========================================================
+		====== -->
+		
+		
+		  <properties>
+			<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		  </properties>
+
+<!-- 		  <dependencies> -->
+			
+<!-- 		  </dependencies> -->
+  
+		  <!--
+		=========================================================
+		====== -->
+		<!-- Modules -->
+		<!--
+		=========================================================
+		====== -->
+		 <modules>
+			<module>Proxybanque-dao</module>
+			<module>Proxybanque-domaine</module>
+			<module>Proxybanque-service</module>
+    		<module>Proxybanque-utils</module>
+			<module>Proxybanque-web</module>
+  		</modules>
+  
+  
+			<!--
+		=========================================================
+		====== -->
+		<!-- Dependances -->
+		<!--
+		=========================================================
+		====== -->
+		 <dependencies>
+			
+    
+  </dependencies>
+</project>

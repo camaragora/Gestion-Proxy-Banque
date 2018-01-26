@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  
+  <!-- ===== Informations du projet parent ===== -->
+	  <parent>
+	    <groupId>sn.objis.codeurs</groupId>
+	    <artifactId>Proxybanque</artifactId>
+	    <version>1.0-SNAPSHOT</version>
+	  </parent>
+  
+  
+  <!-- ===== Informations Maven ===== -->
+	  <groupId>sn.objis.codeurs</groupId>
+	  <artifactId>Proxybanque-dao</artifactId>
+	  <version>1.0-SNAPSHOT</version>
+	  
+	  
+ <!-- ===== Informations générales ===== -->
+	  <name>Proxybanque-dao</name>
+	  <url>http://maven.apache.org</url>
+ 
+ 
+ <!--
+		=========================================================
+		====== -->
+		<!-- Properties -->
+		<!--
+		=========================================================
+		====== -->
+  
+		  <properties>
+		    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		  </properties>
+  
+  
+  
+	  <!--
+	=========================================================
+	====== -->
+	<!-- Dépendances -->
+	<!--
+	=========================================================
+	====== -->
+	  <dependencies>
+	    	<dependency>
+	    		<!-- ===== Modules ===== -->
+				<groupId>sn.objis.codeurs</groupId>
+				 <artifactId>Proxybanque-domaine</artifactId>
+				 <version>1.0-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+	    		<!-- ===== Modules Utils ===== -->
+				<groupId>sn.objis.codeurs</groupId>
+  				<artifactId>Proxybanque-utils</artifactId>
+  				<version>1.0-SNAPSHOT</version>
+			</dependency>
+	  </dependencies>
+</project>
